@@ -1,0 +1,6 @@
+@WebApplicationFindWorker_HostAddress = http://localhost:5201
+
+GET {{WebApplicationFindWorker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

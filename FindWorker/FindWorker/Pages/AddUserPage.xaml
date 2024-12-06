@@ -1,0 +1,57 @@
+﻿<Page x:Class="FindWorker.Pages.AddUserPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FindWorker.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddUserPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+
+        </Grid.RowDefinitions>
+        <TextBlock Text="Фамилия" Grid.Column="0" Grid.Row="0" />
+        <TextBlock Text="Имя" Grid.Column="0" Grid.Row="1" />
+        <TextBlock Text="Отчество" Grid.Column="0" Grid.Row="2" />
+        <TextBlock Text="Номер телефона" Grid.Column="0" Grid.Row="3" />
+        <TextBlock Text="Email" Grid.Column="0" Grid.Row="4"/>
+        <TextBlock Text="Серия паспорта" Grid.Column="0" Grid.Row="5" />
+        <TextBlock Text="Номер паспорта" Grid.Column="0" Grid.Row="6" />
+        <TextBlock Text="ИНН" Grid.Column="0" Grid.Row="7" />
+        <TextBlock Text="Логин" Grid.Column="0" Grid.Row="8" />
+        <TextBlock Text="Пароль" Grid.Column="0" Grid.Row="9" />
+        
+        <TextBox Name="TxtLastName" Grid.Row="0" Grid.Column="1" Text ="{Binding LastName}"/>
+        <TextBox Name="TxtFirstName" Grid.Row="1" Grid.Column="1" Text ="{Binding FirstName}"/>
+        <TextBox Name="TxtMiddleName" Grid.Row="2" Grid.Column="1" Text ="{Binding MiddleName}"/>
+        <TextBox Name="TxtPhone" Grid.Row="3" Grid.Column="1" Text ="{Binding Phone}"/>
+        <TextBox Name="TxtEmail" Grid.Row="4" Grid.Column="1" Text ="{Binding Email}"/>
+        <TextBox Name="TxtSerialPassport" Grid.Row="5" Grid.Column="1" Text ="{Binding SerialPassport}"/>
+        <TextBox Name="TxtNumberPassport" Grid.Row="6" Grid.Column="1" Text ="{Binding NumberPassport}"/>
+        <TextBox Name="TxtInn" Grid.Row="7" Grid.Column="1" Text ="{Binding Inn}"/>
+        <TextBox Name="TxtLogin" Grid.Row="8" Grid.Column="1" Text ="{Binding Login}"/>
+        <TextBox Name="TxtPassword" Grid.Row="9" Grid.Column="1" Text ="{Binding Password}"/>
+        
+        <Button Name="btnSaveChanges" Content="Сохранить" Click="btnSaveChanges_Click" Grid.Column="1" Grid.Row="10" Height="25" Width="200"
+        />
+        <Button Name="btnClose" Content="Отмена" Click="btnClose_Click" Grid.Column="0" Grid.Row="10" Height="25" Width="200"
+/>
+    </Grid>
+</Page>

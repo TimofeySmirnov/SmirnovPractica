@@ -1,0 +1,14 @@
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\bin\Debug\net9.0-windows\WpfLibraryFindWorker.deps.json
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\bin\Debug\net9.0-windows\WpfLibraryFindWorker.runtimeconfig.json
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\bin\Debug\net9.0-windows\WpfLibraryFindWorker.dll
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\bin\Debug\net9.0-windows\WpfLibraryFindWorker.pdb
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\obj\Debug\net9.0-windows\WpfLibraryFindWorker.csproj.AssemblyReference.cache
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\obj\Debug\net9.0-windows\WpfLibraryFindWorker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\obj\Debug\net9.0-windows\WpfLibraryFindWorker.AssemblyInfoInputs.cache
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\obj\Debug\net9.0-windows\WpfLibraryFindWorker.AssemblyInfo.cs
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\obj\Debug\net9.0-windows\WpfLibraryFindWorker.csproj.CoreCompileInputs.cache
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\obj\Debug\net9.0-windows\WpfLibraryFindWorker.dll
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\obj\Debug\net9.0-windows\refint\WpfLibraryFindWorker.dll
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\obj\Debug\net9.0-windows\WpfLibraryFindWorker.pdb
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\obj\Debug\net9.0-windows\WpfLibraryFindWorker.genruntimeconfig.cache
+C:\Users\tim_l\source\repos\WpfLibraryFindWorker\WpfLibraryFindWorker\obj\Debug\net9.0-windows\ref\WpfLibraryFindWorker.dll

@@ -1,0 +1,90 @@
+﻿<Page x:Class="FindWorker.Pages.AdminUsersPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FindWorker.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdminUsersPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ListView Grid.Column="1" Grid.Row="0" 
+          Name="LVOffer" SelectionMode="Extended">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="5"
+                  Width="1536">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Column="0"
+                           Text="{Binding LastName}"
+                           FontSize="16"
+                             Margin="5"/>
+
+                        <TextBlock  Grid.Column="1"
+                             FontSize="16"
+                            Margin="5"
+                           Text="{Binding FirstName}"/>
+                        <TextBlock  Grid.Column="2"
+                           Text="{Binding MiddleName}"
+                           FontSize="16"
+                             Margin="5"/>
+                        <TextBlock  Grid.Column="3"
+   Text="{Binding Phone}"
+   FontSize="16"
+     Margin="5"/>
+                        <TextBlock  Grid.Column="4"
+   Text="{Binding Email}"
+   FontSize="16"
+     Margin="5"/>
+
+                        <TextBlock  Grid.Column="5"
+   Text="{Binding SerialPassport}"
+   FontSize="16"
+     Margin="5"/>
+
+                        <TextBlock  Grid.Column="6"
+   Text="{Binding NumberPassport}"
+   FontSize="16"
+     Margin="5"/>
+
+                        <TextBlock  Grid.Column="7"
+   Text="{Binding Inn}"
+   FontSize="16"
+     Margin="5"/>
+
+
+
+                       
+
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackPanel Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <Button Name="btnBack" Content="Назад" Click="btnBack_Click" Margin="5"/>
+            <Button Name="btnDelete" Content="Удалить" Click="btnDelete_Click" Margin="5"/>
+            <Button Name="btnUpdateUser" Content="Обновить" Click="btnUpdateUser_Click" Margin="5"/>
+            <Button Name="btnAddUser" Content="Добавить" Click="btnAddUser_Click" Margin="5"/>
+      </StackPanel>
+    </Grid>
+</Page>
